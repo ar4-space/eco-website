@@ -154,7 +154,7 @@ body {
 .green-button a {
   font-size: 14px;
   color: #fff;
-  background-color: #43ba7f;
+  background-color: #96bf0d;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 5px;
@@ -171,7 +171,7 @@ body {
 .orange-button a {
   font-size: 14px;
   color: #fff;
-  background-color: #ff511a;
+  background-color: #000000;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 5px;
@@ -224,7 +224,7 @@ header
 --------------------------------------------- 
 */
 .background-header {
-  background-color: #212741;
+  background-color: #ffffff;
   height: 80px!important;
   position: fixed!important;
   top: 0!important;
@@ -305,7 +305,7 @@ header
   font-weight: 300;
   font-size: 14px;
   text-transform: capitalize;
-  color: #fff;
+  color: rgb(0, 0, 0);
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -319,7 +319,7 @@ header
 .header-area .main-nav .nav li:last-child a {
   font-size: 14px;
   color: #fff;
-  background-color: #43ba7f;
+  background-color: #96bf0d;
   padding: 10px 20px !important;
   display: inline-block;
   border-radius: 5px;
@@ -358,7 +358,7 @@ header
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #ff511a;
+  color: #96bf0d;
   opacity: 1;
 }
 
@@ -371,7 +371,7 @@ header
   font-family: FontAwesome;
   content: "\f107";
   font-size: 12px;
-  color: #fff;
+  color: rgb(0, 0, 0);
   position: absolute;
   right: 2px;
   top: 12px;
@@ -558,7 +558,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #ff511a;
+  color: #96bf0d;
 }
 
 @media (max-width: 1200px) {
@@ -638,7 +638,7 @@ header
     color: #191a20 !important;
   }
   .header-area .main-nav .nav li a:hover {
-    background: #eee !important;
+    background: #96bf0d !important;
     color: #ff511a!important;
   }
   .header-area .main-nav .nav li.has-sub ul.sub-menu {
@@ -747,7 +747,7 @@ banner
   position: relative;
   z-index: 2;
   font-size: 56px;
-  color: rgb(126, 78, 78);
+  color: rgb(0, 0, 0);
   font-weight: 700;
   opacity: 1;
   visibility: visible;
@@ -759,14 +759,14 @@ banner
   width: 80px;
   height: 6px;
   border-radius: 3px;
-  background-color: #fff;
+  background-color: rgb(0, 0, 0);
   margin-bottom: 40px;
   opacity: 1;
   visibility: visible;
 }
 
 .slide-inner .header-text p {
-  color: #fff;
+  color: rgb(0, 0, 0);
   margin-right: 60px;
   margin-bottom: 50px;
   opacity: 1;
@@ -825,7 +825,7 @@ section.services {
   transition: all .5s;
   float: left;
   font-size: 64px;
-  color: #43ba7f;
+  color: #96bf0d;
   margin-bottom: 30px;
   margin-right: 30px;
 }
@@ -915,7 +915,7 @@ section.about-us .naccs .menu div {
   border-radius: 5px !important;
   margin-right: 30px;
   font-size: 18px;
-  color: #212741;
+  color: #96bf0d;
   background-color: #fff;
   cursor: pointer;
   vertical-align: middle;
