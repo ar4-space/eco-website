@@ -747,7 +747,7 @@ banner
   position: relative;
   z-index: 2;
   font-size: 56px;
-  color: #fff;
+  color: rgb(126, 78, 78);
   font-weight: 700;
   opacity: 1;
   visibility: visible;
@@ -775,7 +775,7 @@ banner
 
 .slide-inner .header-text h2 em {
   font-style: normal;
-  color: #ff511a;
+  color: #96bf0d;
 }
 
 .slide-inner .header-text .buttons {
