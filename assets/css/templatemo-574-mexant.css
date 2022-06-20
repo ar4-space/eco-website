@@ -1102,7 +1102,7 @@ section.testimonials .section-heading {
 .testimonials .item i {
   width: 70px;
   height: 70px;
-  background-color: #43ba7f;
+  background-color: #96bf0d !important;
   display: inline-block;
   text-align: center;
   line-height: 70px;
@@ -1129,7 +1129,7 @@ section.testimonials .section-heading {
   display: block;
   font-size: 15px;
   font-weight: 600;
-  color: #43ba7f;
+  color: #96bf0d !important;
 }
 
 .testimonials .item img {
@@ -1149,13 +1149,13 @@ section.testimonials .section-heading {
 .testimonials .owl-dots .owl-dot {
   width: 10px;
   height: 10px;
-  background-color: #ffa88c;
+  background-color: #5f7026;
   border-radius: 50%;
   margin: 0px 4px;
 }
 
 .testimonials .owl-dots .active {
-  background-color: #ff511a;
+  background-color: #96bf0d !important;
 }
 
 
