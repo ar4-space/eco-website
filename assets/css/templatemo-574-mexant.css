@@ -708,22 +708,22 @@ banner
 }
 
 .swiper-slide-active h2 {
-  animation: fadeInLeft .8s;
-  -webkit-animation-delay: 1s;
+  animation: fadeIn .2s;
+  -webkit-animation-delay: .3s;
   animation-delay: .3s;
   opacity: 1;
 }
 
 .swiper-slide-active p {
-  animation: fadeInRight .8s;
-  -webkit-animation-delay: 1s;
+  animation: fadeIn .2s;
+  -webkit-animation-delay: .3s;
   animation-delay: .3s;
   opacity: 1;
 }
 
 .swiper-slide-active .div-dec {
-  animation: fadeIn .8s;
-  -webkit-animation-delay: 1s;
+  animation: fadeIn .2s;
+  -webkit-animation-delay: .3s;
   animation-delay: .3s;
   opacity: 1;
 }
