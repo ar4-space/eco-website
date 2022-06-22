@@ -302,7 +302,8 @@ header
 
 .header-area .main-nav .nav li a {
   display: block;
-  font-weight: 300;
+  font-weight: 500;
+  
   font-size: 14px;
   text-transform: capitalize;
   color: rgb(0, 0, 0);
@@ -320,6 +321,7 @@ header
   font-size: 14px;
   color: #fff;
   background-color: #96bf0d;
+ 
   padding: 10px 20px !important;
   display: inline-block;
   border-radius: 5px;
@@ -354,11 +356,13 @@ header
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
   color: #96bf0d;
+
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
   color: #96bf0d;
+  
   opacity: 1;
 }
 
@@ -578,6 +582,7 @@ header
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
     color: #96bf0d!important;
+    
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -640,6 +645,7 @@ header
   .header-area .main-nav .nav li a:hover {
     background: #96bf0d !important;
     color: #fff!important;
+   
   }
   .header-area .main-nav .nav li.has-sub ul.sub-menu {
     position: relative;
@@ -860,7 +866,7 @@ section.simple-cta h4 {
 
 section.simple-cta h4 em {
   font-style: normal;
-  color: #43ba7f;
+  color: #96bf0d;
 }
 
 section.simple-cta h4 strong {
@@ -967,7 +973,7 @@ section.about-us ul.nacc li span.title {
 }
 
 section.about-us ul.nacc li span.item-title {
-  color: #43ba7f !important;
+  color: #96bf0d !important;
   font-weight: 600 !important;
 }
 
@@ -1280,7 +1286,7 @@ section.top-section .accordions {
   transition: transform 200ms ease-in-out;
 }
 .accordion-head.is-open {
-  color: #43ba7f;
+  color: #96bf0d;
   border-bottom: none;
 }
 .accordion-head.is-open .icon {
@@ -1329,7 +1335,7 @@ section.what-we-do {
   position: absolute;
   font-style: normal;
   font-size: 44px;
-  color: #43ba7f;
+  color: #96bf0d;
   font-weight: 600;
   right: 15px;
   top: 5px;
@@ -1357,7 +1363,7 @@ services page
 .main-services .service-item {
   margin-bottom: 60px;
   padding-bottom: 60px;
-  border-bottom: 1px solid #ecf8f2;
+  border-bottom: 1px solid #f0f8ec;
 }
 
 .main-services .last-service {
@@ -1393,8 +1399,8 @@ services page
 .main-services .right-text-content i,
 .main-services .left-text-content i {
   font-size: 64px;
-  color: #43ba7f;
-  background-color: #ecf8f2;
+  color: #96bf0d;
+  background-color: #f0f8ec;
   width: 120px;
   height: 120px;
   text-align: center;
@@ -1545,7 +1551,7 @@ section.map .info-item:hover {
 
 section.map .info-item i {
   font-size: 36px;
-  color: #43ba7f;
+  color: #96bf0d;
   margin-bottom: 25px;
 }
 
@@ -1559,7 +1565,7 @@ section.map .info-item h4 {
 section.map .info-item a {
   font-size: 15px;
   font-weight: 600;
-  color: #43ba7f;
+  color: #96bf0d;
   transition: all 0.3s;
 }
 
@@ -1614,7 +1620,7 @@ section.map .info-item a:hover {
 }
 
 #contact button.orange-button:hover {
-  background-color: #43ba7f;
+  background-color: #96bf0d;
 }
 
 
