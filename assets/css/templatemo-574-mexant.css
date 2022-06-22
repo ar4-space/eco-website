@@ -126,12 +126,12 @@ body {
 }
 
 ::selection {
-  background: #ff511a;
-  color: #fff;
+  background: #ffffff;
+  color: rgb(0, 0, 0)!important;
 }
 
 ::-moz-selection {
-  background: #ff511a;
+  background: #96bf0d;
   color: #fff;
 }
 
@@ -200,7 +200,7 @@ section {
 .section-heading h6 {
   font-size: 16px;
   text-transform: uppercase;
-  color: #ff511a;
+  color: #96bf0d;
   font-weight: 700;
 }
 
@@ -353,7 +353,7 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #ff511a;
+  color: #96bf0d;
 }
 
 .background-header .main-nav .nav li:hover a,
@@ -418,7 +418,7 @@ header
 
 .header-area .main-nav .nav li.has-sub ul li a:hover {
   background: #fff;
-  color: #ff511a!important;
+  color: #000!important;
   padding-left: 25px;
 }
 
@@ -458,7 +458,7 @@ header
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #fff;
+  background-color: #000;
   display: block;
   position: absolute;
   width: 30px;
@@ -469,7 +469,7 @@ header
 .background-header .main-nav .menu-trigger span,
 .background-header .main-nav .menu-trigger span:before,
 .background-header .main-nav .menu-trigger span:after {
-  background-color: #fff;
+  background-color: #000;
 }
 
 .header-area .main-nav .menu-trigger span:before,
@@ -478,7 +478,7 @@ header
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #fff;
+  background-color: #000;
   display: block;
   position: absolute;
   width: 30px;
@@ -489,7 +489,7 @@ header
 
 .background-header .main-nav .menu-trigger span:before,
 .background-header .main-nav .menu-trigger span:after {
-  background-color: #fff;
+  background-color: #000;
 }
 
 .header-area .main-nav .menu-trigger span:before,
@@ -530,11 +530,11 @@ header
   -ms-transform: translateY(6px) translateX(1px) rotate(45deg);
   -webkit-transform: translateY(6px) translateX(1px) rotate(45deg);
   transform: translateY(6px) translateX(1px) rotate(45deg);
-  background-color: #fff;
+  background-color: #000;
 }
 
 .background-header .main-nav .menu-trigger.active span:before {
-  background-color: #fff;
+  background-color: #000;
 }
 
 .header-area .main-nav .menu-trigger.active span:after {
@@ -542,11 +542,11 @@ header
   -ms-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   -webkit-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   transform: translateY(-6px) translateX(1px) rotate(-45deg);
-  background-color: #fff;
+  background-color: #000;
 }
 
 .background-header .main-nav .menu-trigger.active span:after {
-  background-color: #fff;
+  background-color: #000;
 }
 
 .header-area.header-sticky {
@@ -577,7 +577,7 @@ header
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #ff511a!important;
+    color: #96bf0d!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -639,7 +639,7 @@ header
   }
   .header-area .main-nav .nav li a:hover {
     background: #96bf0d !important;
-    color: #ff511a!important;
+    color: #fff!important;
   }
   .header-area .main-nav .nav li.has-sub ul.sub-menu {
     position: relative;
@@ -690,7 +690,7 @@ banner
 .swiper-container {
   height: calc(100vh - 0px);
   margin: 0px;
-  background-color: #212741;
+  background-color: #fff;
 }
 
 .swiper-slide {
@@ -708,22 +708,22 @@ banner
 }
 
 .swiper-slide-active h2 {
-  animation: fadeIn .2s;
-  -webkit-animation-delay: .3s;
+  animation: fadeIn 1.5s;
+  -webkit-animation-delay: .5s;
   animation-delay: .3s;
   opacity: 1;
 }
 
 .swiper-slide-active p {
-  animation: fadeIn .2s;
-  -webkit-animation-delay: .3s;
+  animation: fadeIn 1.5s;
+  -webkit-animation-delay: .5s;
   animation-delay: .3s;
   opacity: 1;
 }
 
 .swiper-slide-active .div-dec {
-  animation: fadeIn .2s;
-  -webkit-animation-delay: .3s;
+  animation: fadeIn 1.5s;
+  -webkit-animation-delay: .5s;
   animation-delay: .3s;
   opacity: 1;
 }
@@ -864,7 +864,7 @@ section.simple-cta h4 em {
 }
 
 section.simple-cta h4 strong {
-  color: #ff511a;
+  color: #96bf0d;
   font-weight: 700;
 }
 
@@ -925,7 +925,7 @@ section.about-us .naccs .menu div {
 }
 
 section.about-us .naccs .menu div.active {
-  color: #ff511a;
+  color: #96bf0d;
 }
 
 section.about-us ul.nacc {
@@ -1057,7 +1057,7 @@ section.calculator .section-heading h4 {
 #calculate button.orange-button {
   font-size: 14px;
   color: #fff;
-  background-color: #ff511a;
+  background-color: #96bf0d;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 5px;
@@ -1201,7 +1201,7 @@ footer p {
 }
 
 footer p a {
-  color: #ff511a;
+  color: #96bf0d;
 }
 
 
@@ -1264,7 +1264,7 @@ section.top-section .accordions {
   padding: 35px 0px !important;  
   font-size: 22px;
   font-weight: 600;
-  color: #212741;
+  color: #fff;
   cursor: pointer;
   transition: color 200ms ease-in-out;
   
@@ -1437,7 +1437,7 @@ section.service-details .naccs .menu div {
 }
 
 section.service-details .naccs .menu div.active {
-  color: #ff511a;
+  color: #96bf0d;
 }
 
 section.service-details ul.nacc {
@@ -1564,7 +1564,7 @@ section.map .info-item a {
 }
 
 section.map .info-item a:hover {
-  color: #ff511a;
+  color: #96bf0d;
 }
 
 #contact input {
@@ -1602,7 +1602,7 @@ section.map .info-item a:hover {
 #contact button.orange-button {
   font-size: 14px;
   color: #fff;
-  background-color: #ff511a;
+  background-color: #96bf0d;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 5px;
@@ -1637,7 +1637,7 @@ body {
     display: inline-block;
   }
   .header-area {
-    background-color: #212741;
+    background-color: #fff;
   }
   .slide-inner .header-text {
     width: 80%;
