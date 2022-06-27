@@ -3,7 +3,10 @@
 	"use strict";
 
 	//////////////////////////////////////////////////////
-	
+	$('a[href*=#]').on('click', function(e) {
+		e.preventDefault();
+		$('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 800, 'swing');
+	  });
 
 	//////////////////////////////////////////////////////
 	// WOW JS
@@ -167,6 +170,8 @@
 	
 
 	// Menu Dropdown Toggle
+
+
 	if($('.menu-trigger').length){
 		$(".menu-trigger").on('click', function() {	
 			$(this).toggleClass('active');
